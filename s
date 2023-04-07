@@ -76,7 +76,7 @@ Andromeda.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 top.Name = "top"
 top.Parent = Andromeda
 top.BackgroundColor3 = Color3.fromRGB(22, 22, 29)
-top.Position = UDim2.new(0.250936329, 0, 0.269841284, 0)
+top.Position = UDim2.new(0.302237451, 0, 0.297238529, 0)
 top.Size = UDim2.new(0, 531, 0, 89)
 
 UICorner.CornerRadius = UDim.new(0, 20)
@@ -429,7 +429,7 @@ UIAspectRatioConstraint_25.AspectRatio = 5.966
 
 -- Scripts:
 
-local function JQAE_fake_script() -- TextButton.LocalScript 
+local function RWXB_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local btn = script.Parent
@@ -465,8 +465,8 @@ local function JQAE_fake_script() -- TextButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(JQAE_fake_script)()
-local function KOLERDA_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(RWXB_fake_script)()
+local function PMIJYSB_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local btn = script.Parent
@@ -502,8 +502,8 @@ local function KOLERDA_fake_script() -- TextButton_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(KOLERDA_fake_script)()
-local function CTMNXEE_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(PMIJYSB_fake_script)()
+local function IOAQJ_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local btn = script.Parent
@@ -532,8 +532,8 @@ local function CTMNXEE_fake_script() -- TextButton_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(CTMNXEE_fake_script)()
-local function VNJT_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(IOAQJ_fake_script)()
+local function QEPH_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	local btn = script.Parent
@@ -569,8 +569,8 @@ local function VNJT_fake_script() -- TextButton_4.LocalScript
 	end)
 	
 end
-coroutine.wrap(VNJT_fake_script)()
-local function MTLPRX_fake_script() -- top.LocalScript 
+coroutine.wrap(QEPH_fake_script)()
+local function YQLQP_fake_script() -- top.LocalScript 
 	local script = Instance.new('LocalScript', top)
 
 	local TweenService = game:GetService('TweenService')
@@ -614,4 +614,4 @@ local function MTLPRX_fake_script() -- top.LocalScript
 		Dragging = false
 	end)
 end
-coroutine.wrap(MTLPRX_fake_script)()
+coroutine.wrap(YQLQP_fake_script)()
