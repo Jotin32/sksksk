@@ -8,34 +8,64 @@ local top = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local bg = Instance.new("Frame")
 local UICorner_2 = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
 local Borderbar = Instance.new("Frame")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
 local Tab = Instance.new("Frame")
 local UICorner_3 = Instance.new("UICorner")
 local Main = Instance.new("ImageLabel")
 local TextLabel = Instance.new("TextLabel")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
 local TextButton = Instance.new("TextButton")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
 local Antiuicornerframe = Instance.new("Frame")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
 local Credits = Instance.new("ImageLabel")
 local TextLabel_2 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
 local TextButton_2 = Instance.new("TextButton")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
 local Premium = Instance.new("ImageLabel")
 local TextLabel_3 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
 local TextButton_3 = Instance.new("TextButton")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
 local Players = Instance.new("ImageLabel")
 local TextLabel_4 = Instance.new("TextLabel")
+local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
 local TextButton_4 = Instance.new("TextButton")
+local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_15 = Instance.new("UIAspectRatioConstraint")
 local PlayersHoverFrame = Instance.new("Frame")
 local UICorner_4 = Instance.new("UICorner")
+local UIAspectRatioConstraint_16 = Instance.new("UIAspectRatioConstraint")
 local CreditsHoverFrame = Instance.new("Frame")
 local UICorner_5 = Instance.new("UICorner")
+local UIAspectRatioConstraint_17 = Instance.new("UIAspectRatioConstraint")
 local MainHoverFrame = Instance.new("Frame")
 local UICorner_6 = Instance.new("UICorner")
+local UIAspectRatioConstraint_18 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_19 = Instance.new("UIAspectRatioConstraint")
 local Borderbar_2 = Instance.new("Frame")
+local UIAspectRatioConstraint_20 = Instance.new("UIAspectRatioConstraint")
 local Antiuicornerframe_2 = Instance.new("Frame")
+local UIAspectRatioConstraint_21 = Instance.new("UIAspectRatioConstraint")
 local Closebtn = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
+local UIAspectRatioConstraint_22 = Instance.new("UIAspectRatioConstraint")
 local title = Instance.new("TextLabel")
+local UIAspectRatioConstraint_23 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
 local Borderbar_3 = Instance.new("Frame")
+local UIAspectRatioConstraint_24 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_25 = Instance.new("UIAspectRatioConstraint")
 
 --Properties:
 
@@ -61,6 +91,9 @@ bg.Size = UDim2.new(0, 531, 0, 271)
 UICorner_2.CornerRadius = UDim.new(0, 20)
 UICorner_2.Parent = bg
 
+UIAspectRatioConstraint.Parent = bg
+UIAspectRatioConstraint.AspectRatio = 1.959
+
 Borderbar.Name = "Borderbar"
 Borderbar.Parent = top
 Borderbar.BackgroundColor3 = Color3.fromRGB(121, 121, 159)
@@ -68,6 +101,9 @@ Borderbar.BorderSizePixel = 0
 Borderbar.Position = UDim2.new(0, 0, 0.639878511, 0)
 Borderbar.Size = UDim2.new(0, 531, 0, 2)
 Borderbar.ZIndex = 1000000000
+
+UIAspectRatioConstraint_2.Parent = Borderbar
+UIAspectRatioConstraint_2.AspectRatio = 265.500
 
 Tab.Name = "Tab"
 Tab.Parent = top
@@ -102,6 +138,12 @@ TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
 
+UIAspectRatioConstraint_3.Parent = TextLabel
+UIAspectRatioConstraint_3.AspectRatio = 2.864
+
+UITextSizeConstraint.Parent = TextLabel
+UITextSizeConstraint.MaxTextSize = 22
+
 TextButton.Parent = Main
 TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.BackgroundTransparency = 1.000
@@ -113,6 +155,11 @@ TextButton.Text = ""
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 14.000
 
+UIAspectRatioConstraint_4.Parent = TextButton
+UIAspectRatioConstraint_4.AspectRatio = 4.429
+
+UIAspectRatioConstraint_5.Parent = Main
+
 Antiuicornerframe.Name = "Antiuicornerframe"
 Antiuicornerframe.Parent = Tab
 Antiuicornerframe.BackgroundColor3 = Color3.fromRGB(46, 46, 61)
@@ -120,6 +167,9 @@ Antiuicornerframe.BorderSizePixel = 0
 Antiuicornerframe.Position = UDim2.new(0, 0, -0.00177156925, 0)
 Antiuicornerframe.Size = UDim2.new(0, 173, 0, 16)
 Antiuicornerframe.ZIndex = 5000
+
+UIAspectRatioConstraint_6.Parent = Antiuicornerframe
+UIAspectRatioConstraint_6.AspectRatio = 10.812
 
 Credits.Name = "Credits"
 Credits.Parent = Tab
@@ -144,6 +194,12 @@ TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
 TextLabel_2.TextWrapped = true
 
+UIAspectRatioConstraint_7.Parent = TextLabel_2
+UIAspectRatioConstraint_7.AspectRatio = 3.409
+
+UITextSizeConstraint_2.Parent = TextLabel_2
+UITextSizeConstraint_2.MaxTextSize = 22
+
 TextButton_2.Parent = Credits
 TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.BackgroundTransparency = 1.000
@@ -154,6 +210,11 @@ TextButton_2.Font = Enum.Font.SourceSans
 TextButton_2.Text = ""
 TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_2.TextSize = 14.000
+
+UIAspectRatioConstraint_8.Parent = TextButton_2
+UIAspectRatioConstraint_8.AspectRatio = 4.429
+
+UIAspectRatioConstraint_9.Parent = Credits
 
 Premium.Name = "Premium"
 Premium.Parent = Tab
@@ -179,6 +240,12 @@ TextLabel_3.TextScaled = true
 TextLabel_3.TextSize = 14.000
 TextLabel_3.TextWrapped = true
 
+UIAspectRatioConstraint_10.Parent = TextLabel_3
+UIAspectRatioConstraint_10.AspectRatio = 3.409
+
+UITextSizeConstraint_3.Parent = TextLabel_3
+UITextSizeConstraint_3.MaxTextSize = 18
+
 TextButton_3.Parent = Premium
 TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_3.BackgroundTransparency = 1.000
@@ -189,6 +256,11 @@ TextButton_3.Font = Enum.Font.SourceSans
 TextButton_3.Text = ""
 TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_3.TextSize = 14.000
+
+UIAspectRatioConstraint_11.Parent = TextButton_3
+UIAspectRatioConstraint_11.AspectRatio = 4.429
+
+UIAspectRatioConstraint_12.Parent = Premium
 
 Players.Name = "Players"
 Players.Parent = Tab
@@ -213,6 +285,12 @@ TextLabel_4.TextScaled = true
 TextLabel_4.TextSize = 14.000
 TextLabel_4.TextWrapped = true
 
+UIAspectRatioConstraint_13.Parent = TextLabel_4
+UIAspectRatioConstraint_13.AspectRatio = 3.455
+
+UITextSizeConstraint_4.Parent = TextLabel_4
+UITextSizeConstraint_4.MaxTextSize = 22
+
 TextButton_4.Parent = Players
 TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_4.BackgroundTransparency = 1.000
@@ -223,6 +301,11 @@ TextButton_4.Font = Enum.Font.SourceSans
 TextButton_4.Text = ""
 TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton_4.TextSize = 14.000
+
+UIAspectRatioConstraint_14.Parent = TextButton_4
+UIAspectRatioConstraint_14.AspectRatio = 4.429
+
+UIAspectRatioConstraint_15.Parent = Players
 
 PlayersHoverFrame.Name = "PlayersHoverFrame"
 PlayersHoverFrame.Parent = Tab
@@ -235,6 +318,9 @@ PlayersHoverFrame.Visible = false
 UICorner_4.CornerRadius = UDim.new(0, 10)
 UICorner_4.Parent = PlayersHoverFrame
 
+UIAspectRatioConstraint_16.Parent = PlayersHoverFrame
+UIAspectRatioConstraint_16.AspectRatio = 3.268
+
 CreditsHoverFrame.Name = "CreditsHoverFrame"
 CreditsHoverFrame.Parent = Tab
 CreditsHoverFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -245,6 +331,9 @@ CreditsHoverFrame.Visible = false
 
 UICorner_5.CornerRadius = UDim.new(0, 10)
 UICorner_5.Parent = CreditsHoverFrame
+
+UIAspectRatioConstraint_17.Parent = CreditsHoverFrame
+UIAspectRatioConstraint_17.AspectRatio = 3.268
 
 MainHoverFrame.Name = "MainHoverFrame"
 MainHoverFrame.Parent = Tab
@@ -258,6 +347,12 @@ MainHoverFrame.ZIndex = 6000
 UICorner_6.CornerRadius = UDim.new(0, 10)
 UICorner_6.Parent = MainHoverFrame
 
+UIAspectRatioConstraint_18.Parent = MainHoverFrame
+UIAspectRatioConstraint_18.AspectRatio = 3.268
+
+UIAspectRatioConstraint_19.Parent = Tab
+UIAspectRatioConstraint_19.AspectRatio = 0.660
+
 Borderbar_2.Name = "Borderbar"
 Borderbar_2.Parent = top
 Borderbar_2.BackgroundColor3 = Color3.fromRGB(121, 121, 159)
@@ -266,6 +361,9 @@ Borderbar_2.Position = UDim2.new(0.321168423, 0, 0.662350595, 0)
 Borderbar_2.Size = UDim2.new(0, 2, 0, 262)
 Borderbar_2.ZIndex = 1000000000
 
+UIAspectRatioConstraint_20.Parent = Borderbar_2
+UIAspectRatioConstraint_20.AspectRatio = 0.008
+
 Antiuicornerframe_2.Name = "Antiuicornerframe"
 Antiuicornerframe_2.Parent = top
 Antiuicornerframe_2.BackgroundColor3 = Color3.fromRGB(46, 46, 61)
@@ -273,6 +371,9 @@ Antiuicornerframe_2.BorderSizePixel = 0
 Antiuicornerframe_2.Position = UDim2.new(0.256154776, 0, 3.42639565, 0)
 Antiuicornerframe_2.Size = UDim2.new(0, 34, 0, 16)
 Antiuicornerframe_2.ZIndex = 5000
+
+UIAspectRatioConstraint_21.Parent = Antiuicornerframe_2
+UIAspectRatioConstraint_21.AspectRatio = 2.125
 
 Closebtn.Name = "Closebtn"
 Closebtn.Parent = top
@@ -289,6 +390,9 @@ Closebtn.TextWrapped = true
 UICorner_7.CornerRadius = UDim.new(0, 15)
 UICorner_7.Parent = Closebtn
 
+UIAspectRatioConstraint_22.Parent = Closebtn
+UIAspectRatioConstraint_22.AspectRatio = 1.588
+
 title.Name = "title"
 title.Parent = top
 title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -302,6 +406,12 @@ title.TextScaled = true
 title.TextSize = 14.000
 title.TextWrapped = true
 
+UIAspectRatioConstraint_23.Parent = title
+UIAspectRatioConstraint_23.AspectRatio = 9.130
+
+UITextSizeConstraint_5.Parent = title
+UITextSizeConstraint_5.MaxTextSize = 23
+
 Borderbar_3.Name = "Borderbar"
 Borderbar_3.Parent = top
 Borderbar_3.BackgroundColor3 = Color3.fromRGB(121, 121, 159)
@@ -311,9 +421,15 @@ Borderbar_3.Size = UDim2.new(0, 172, 0, 2)
 Borderbar_3.Visible = false
 Borderbar_3.ZIndex = 1000000000
 
+UIAspectRatioConstraint_24.Parent = Borderbar_3
+UIAspectRatioConstraint_24.AspectRatio = 86.000
+
+UIAspectRatioConstraint_25.Parent = top
+UIAspectRatioConstraint_25.AspectRatio = 5.966
+
 -- Scripts:
 
-local function WAFDK_fake_script() -- TextButton.LocalScript 
+local function JQAE_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	local btn = script.Parent
@@ -349,8 +465,8 @@ local function WAFDK_fake_script() -- TextButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(WAFDK_fake_script)()
-local function XCCRI_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(JQAE_fake_script)()
+local function KOLERDA_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local btn = script.Parent
@@ -386,8 +502,8 @@ local function XCCRI_fake_script() -- TextButton_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(XCCRI_fake_script)()
-local function QDWBYQ_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(KOLERDA_fake_script)()
+local function CTMNXEE_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	local btn = script.Parent
@@ -416,8 +532,8 @@ local function QDWBYQ_fake_script() -- TextButton_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(QDWBYQ_fake_script)()
-local function FTQPIHJ_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(CTMNXEE_fake_script)()
+local function VNJT_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	local btn = script.Parent
@@ -453,8 +569,8 @@ local function FTQPIHJ_fake_script() -- TextButton_4.LocalScript
 	end)
 	
 end
-coroutine.wrap(FTQPIHJ_fake_script)()
-local function CVWN_fake_script() -- top.LocalScript 
+coroutine.wrap(VNJT_fake_script)()
+local function MTLPRX_fake_script() -- top.LocalScript 
 	local script = Instance.new('LocalScript', top)
 
 	local TweenService = game:GetService('TweenService')
@@ -498,4 +614,4 @@ local function CVWN_fake_script() -- top.LocalScript
 		Dragging = false
 	end)
 end
-coroutine.wrap(CVWN_fake_script)()
+coroutine.wrap(MTLPRX_fake_script)()
